@@ -1,6 +1,6 @@
 {
   "name": "postmark-cli-cz",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Fix count: A CLI tool for managing templates, sending emails, and fetching servers on Postmark.",
   "main": "./dist/index.js",
   "dependencies": {
