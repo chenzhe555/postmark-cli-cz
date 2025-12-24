@@ -1,6 +1,6 @@
 {
   "name": "postmark-cli-cz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fix count: A CLI tool for managing templates, sending emails, and fetching servers on Postmark.",
   "main": "./dist/index.js",
   "dependencies": {
@@ -67,6 +67,7 @@
     "lint:js": "eslint --ext .ts ./src",
     "lint:prettier": "prettier --check .",
     "lint": "concurrently \"npm run lint:js\" \"npm run lint:prettier\"",
+    "prepublishOnly": "npm run build",
     "publish:npm": "npm publish --access public"
   },
   "repository": {
