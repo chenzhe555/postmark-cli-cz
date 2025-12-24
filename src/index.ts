@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import chalk from 'chalk'
+import "./commands/templates";
 
 require('yargonaut').style('yellow').errorsStyle('red')
 
