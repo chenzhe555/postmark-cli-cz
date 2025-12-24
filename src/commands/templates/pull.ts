@@ -106,7 +106,7 @@ async function fetchTemplateList(options: TemplateListOptions) {
   }
 
   try {
-    const templates = await client.getTemplates({ count: 300 })
+    const templates = await client.getTemplates({ count: 500 })
 
     if (templates.TotalCount === 0) {
       spinner.stop()

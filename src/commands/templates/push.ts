@@ -119,7 +119,7 @@ async function push(
     }
 
     try {
-      const templateList = await client.getTemplates({ count: 300 })
+      const templateList = await client.getTemplates({ count: 500 })
       const newList =
         templateList.TotalCount === 0
           ? []
